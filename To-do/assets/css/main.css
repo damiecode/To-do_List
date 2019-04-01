@@ -1,0 +1,99 @@
+/* style the body */
+body {
+    margin: 0;
+    padding: 0;
+    background: #5D4157;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A8CABA, #5D4157);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* style the h1 */
+h1 {
+    background: #A8CABA;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 50px;
+}
+
+/* style the icon */
+.fa-plus {
+    float: right;
+}
+
+/* style the span */
+span {
+    background: #e74c3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover span {
+    width: 40px;
+    opacity: 1;
+}
+
+/* style the ul */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* style the list */
+li{ 
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666; 
+}
+
+/* style other li */ 
+li:nth-child(2n) {
+    background: #f7f7f7;
+}
+
+/* style the input field */
+input[type="text"] {
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    color: #5D4157;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+/* input focus */
+input:focus {
+    background: #fff;
+    outline: none;
+    border: 3px solid #5D4157;
+}
+
+/* style the background */
+#container {
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1)
+}
+
+/* class completed */
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
